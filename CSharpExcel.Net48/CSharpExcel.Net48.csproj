@@ -41,7 +41,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\SharedStrings\SharedStrings.cs" />
+    <Compile Include="Models\SharedStrings\StringValue.cs" />
+    <Compile Include="Models\Sheet\AutoFilter.cs" />
+    <Compile Include="Models\Sheet\Cell.cs" />
+    <Compile Include="Models\Sheet\Cols.cs" />
+    <Compile Include="Models\Sheet\Column.cs" />
+    <Compile Include="Models\Sheet\Dimension.cs" />
+    <Compile Include="Models\Sheet\Worksheet.cs" />
+    <Compile Include="Models\Sheet\PageMargins.cs" />
+    <Compile Include="Models\Sheet\PageSetup.cs" />
+    <Compile Include="Models\Sheet\Row.cs" />
+    <Compile Include="Models\Sheet\Selection.cs" />
+    <Compile Include="Models\Sheet\SheetData.cs" />
+    <Compile Include="Models\Sheet\SheetFormatPr.cs" />
+    <Compile Include="Models\Sheet\SheetView.cs" />
+    <Compile Include="Models\Sheet\SheetViews.cs" />
+    <Compile Include="Models\Workbook\AbsPath.cs" />
+    <Compile Include="Models\Workbook\AlternateContent.cs" />
+    <Compile Include="Models\Workbook\BookViews.cs" />
+    <Compile Include="Models\Workbook\CalcPr.cs" />
+    <Compile Include="Models\Workbook\Choice.cs" />
+    <Compile Include="Models\Workbook\Workbook.cs" />
+    <Compile Include="Models\Workbook\DefinedName.cs" />
+    <Compile Include="Models\Workbook\DefinedNames.cs" />
+    <Compile Include="Models\Workbook\Ext.cs" />
+    <Compile Include="Models\Workbook\ExtLst.cs" />
+    <Compile Include="Models\Workbook\FileVersion.cs" />
+    <Compile Include="Models\Workbook\RevisionPtr.cs" />
+    <Compile Include="Models\Workbook\Sheet.cs" />
+    <Compile Include="Models\Workbook\Sheets.cs" />
+    <Compile Include="Models\Workbook\WorkbookPr.cs" />
+    <Compile Include="Models\Workbook\WorkbookView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sample\SumsOfAcnnt_Template - Copy\docProps\app.xml" />
+    <Content Include="Sample\SumsOfAcnnt_Template - Copy\docProps\core.xml" />
+    <Content Include="Sample\SumsOfAcnnt_Template - Copy\xl\calcChain.xml" />
+    <Content Include="Sample\SumsOfAcnnt_Template - Copy\xl\sharedStrings.xml" />
+    <Content Include="Sample\SumsOfAcnnt_Template - Copy\xl\styles.xml" />
+    <Content Include="Sample\SumsOfAcnnt_Template - Copy\xl\theme\theme1.xml" />
+    <Content Include="Sample\SumsOfAcnnt_Template - Copy\xl\workbook.xml" />
+    <Content Include="Sample\SumsOfAcnnt_Template - Copy\xl\worksheets\sheet1.xml" />
+    <Content Include="Sample\SumsOfAcnnt_Template - Copy\[Content_Types].xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sample\SumsOfAcnnt_Template - Copy\xl\printerSettings\printerSettings1.bin" />
+    <None Include="Sample\SumsOfAcnnt_Template - Copy\xl\worksheets\_rels\sheet1.xml.rels" />
+    <None Include="Sample\SumsOfAcnnt_Template - Copy\xl\_rels\workbook.xml.rels" />
+    <None Include="Sample\SumsOfAcnnt_Template - Copy\_rels\.rels" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
